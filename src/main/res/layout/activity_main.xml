@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/btn_dotAndLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义View_点和线"/>
+    <Button
+        android:id="@+id/btn_bing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义饼状图"/>
+    <Button
+        android:id="@+id/btn_canvas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="画布操作"/>
+    <Button
+        android:id="@+id/btn_canvas2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="画布操作2"/>
+    <Button
+        android:id="@+id/btn_canvas3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="画布操作3_绘制文字"/>
+    <Button
+        android:id="@+id/btn_path1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Path_1"/>
+    <Button
+        android:id="@+id/btn_path2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="雷达图"/>
+
+</LinearLayout>
