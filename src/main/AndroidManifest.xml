@@ -19,13 +19,23 @@
         <activity android:name=".activity.DotAndLineActivity"/>
         <activity android:name=".activity.BingActivity"/>
         <activity android:name=".activity.CanvasOperationActivity"/>
-        <activity
-            android:name=".activity.CanvasOperationActivity2"/>
+        <activity android:name=".activity.CanvasOperationActivity2"/>
         <activity android:name=".activity.CanvasOperationActivity3">
         </activity>
         <activity android:name=".activity.PathActivity">
         </activity>
         <activity android:name=".activity.RadarActivity">
+        </activity>
+        <activity android:name=".activity.BezierActivity">
+        </activity>
+        <activity android:name=".activity.PathActivity2"/>
+        <activity android:name=".activity.PathActivity3">
+        </activity>
+        <activity android:name=".activity.MatrixActivity">
+        </activity>
+        <activity android:name=".activity.ClickRegionActivity">
+        </activity>
+        <activity android:name=".activity.ArcActivity">
         </activity>
     </application>
 

@@ -31,6 +31,18 @@ public class MainActivity extends AppCompatActivity {
     Button mBtnPath1;
     @InjectView(R.id.btn_path2)
     Button mBtnPath2;
+    @InjectView(R.id.btn_path3)
+    Button mBtnPath3;
+    @InjectView(R.id.btn_path4)
+    Button mBtnPath4;
+    @InjectView(R.id.btn_path5)
+    Button mBtnPath5;
+    @InjectView(R.id.btn_path6)
+    Button mBtnPath6;
+    @InjectView(R.id.btn_path7)
+    Button mBtnPath7;
+    @InjectView(R.id.btn_path8)
+    Button mBtnPath8;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,6 +83,37 @@ public class MainActivity extends AppCompatActivity {
 
     @OnClick(R.id.btn_path2)
     public void onClick6() {
-        startActivity(new Intent(this,RadarActivity.class));
+        startActivity(new Intent(this, RadarActivity.class));
+    }
+
+    //贝塞尔曲线
+    @OnClick(R.id.btn_path3)
+    public void onClick7() {
+        startActivity(new Intent(this, BezierActivity.class));
+    }
+
+    @OnClick(R.id.btn_path4)
+    public void onClick8() {
+        startActivity(new Intent(this, PathActivity2.class));
+    }
+
+    @OnClick(R.id.btn_path5)
+    public void onClick9() {
+        startActivity(new Intent(this, PathActivity3.class));
+    }
+
+    @OnClick(R.id.btn_path6)
+    public void onClick10() {
+        startActivity(new Intent(this, MatrixActivity.class));
+    }
+
+    @OnClick(R.id.btn_path7)
+    public void onClick11() {
+        startActivity(new Intent(this, ClickRegionActivity.class));
+    }
+
+    @OnClick(R.id.btn_path8)
+    public void onClick12() {
+        startActivity(new Intent(this,ArcActivity.class));
     }
 }
