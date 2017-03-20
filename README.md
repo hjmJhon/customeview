@@ -13,8 +13,7 @@
         app:textSize="20dp"/>
 ```
 #### 已经对width或者height是wrap_content的情形做了处理，所以你不必担心适配的问题
-##### tips：
-如果是wrap_content的情形，默认是400dp，所以建议根据需要给出具体的width和height
+##### tips：如果是wrap_content的情形，默认是400dp，所以建议根据需要给出具体的width和height
 ## 类似遥控器的view
 ![](https://github.com/hjmJhon/customeview/raw/master/Screenshots/Untitled.gif)
 ### useage on your layout
